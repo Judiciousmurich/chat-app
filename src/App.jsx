@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import ChatWindow from './components/ChatWindow';
+import Sidebar from './components/SideBar';
+// import ChatWindow from './components/ChatWindow';
 
 function App() {
   const [chats] = useState([
