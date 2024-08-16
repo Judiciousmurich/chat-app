@@ -5,7 +5,7 @@ import Sidebar from './components/SideBar';
 function App() {
   const [chats] = useState([
     { id: 1, name: 'Judicious', lastMessage: 'Hey there!' },
-    { id: 2, name: 'Jane Smith', lastMessage: 'Good morning!' },
+    { id: 2, name: 'Amos', lastMessage: 'Good morning!' },
   ]);
 
   const [currentChat, setCurrentChat] = useState(chats[0]);
