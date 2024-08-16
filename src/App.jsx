@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="flex h-screen">
       <Sidebar chats={chats} currentChat={currentChat} setCurrentChat={setCurrentChat} />
-      <ChatWindow currentChat={currentChat} messages={messages} sendMessage={sendMessage} />
+      {/* <ChatWindow currentChat={currentChat} messages={messages} sendMessage={sendMessage} /> */}
     </div>
   );
 }
