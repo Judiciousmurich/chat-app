@@ -4,13 +4,13 @@ import Sidebar from './components/SideBar';
 
 function App() {
   const [chats] = useState([
-    { id: 1, name: 'John Doe', lastMessage: 'Hey there!' },
+    { id: 1, name: 'Judicious', lastMessage: 'Hey there!' },
     { id: 2, name: 'Jane Smith', lastMessage: 'Good morning!' },
   ]);
 
   const [currentChat, setCurrentChat] = useState(chats[0]);
   const [messages, setMessages] = useState([
-    { text: 'Hello!', sender: 'John Doe' },
+    { text: 'Hello!', sender: 'Judicious' },
     { text: 'Hi, how are you?', sender: 'You' },
   ]);
 
