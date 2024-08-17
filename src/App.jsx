@@ -4,7 +4,7 @@ import Sidebar from './components/SideBar';
 
 function App() {
   const [chats] = useState([
-    { id: 1, name: 'Judicious', lastMessage: 'Hey there!' },
+    { id: 1, name: 'Judicious', lastMessage: 'Hey Amos!' },
     { id: 2, name: 'Amos', lastMessage: 'Good morning!' },
   ]);
 
