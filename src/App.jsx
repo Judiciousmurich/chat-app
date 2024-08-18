@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Sidebar from './components/SideBar';
-// import ChatWindow from './components/ChatWindow';
+import Sidebar from './components/Sidebar';
+import ChatWindow from './components/ChatWindow';
 
 function App() {
   const [chats] = useState([
-    { id: 1, name: 'Judicious', lastMessage: 'Hey Amos!' },
-    { id: 2, name: 'Amos', lastMessage: 'Good morning!' },
+    { id: 1, name: 'John Doe', lastMessage: 'Hey there!' },
+    { id: 2, name: 'Jane Smith', lastMessage: 'Good morning!' },
   ]);
 
   const [currentChat, setCurrentChat] = useState(chats[0]);
   const [messages, setMessages] = useState([
-    { text: 'Hello!', sender: 'Judicious' },
+    { text: 'Hello!', sender: 'John Doe' },
     { text: 'Hi, how are you?', sender: 'You' },
   ]);
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="flex h-screen">
       <Sidebar chats={chats} currentChat={currentChat} setCurrentChat={setCurrentChat} />
-      {/* <ChatWindow currentChat={currentChat} messages={messages} sendMessage={sendMessage} /> */}
+      <ChatWindow currentChat={currentChat} messages={messages} sendMessage={sendMessage} />
     </div>
   );
 }
