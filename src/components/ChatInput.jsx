@@ -10,12 +10,19 @@ function ChatInput({ sendMessage }) {
     }
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSend();
+    }
+  };
+
   return (
     <div className="p-4 border-t border-gray-300 flex items-center">
       <input
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
+        onKeyPress={handleKeyPress}
         placeholder="Type a message"
         className="flex-1 p-2 border rounded"
       />
