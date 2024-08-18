@@ -10,7 +10,7 @@ function App() {
 
   const [currentChat, setCurrentChat] = useState(chats[0]);
   const [messages, setMessages] = useState([
-    { text: 'Hello!', sender: 'John Doe' },
+    { text: 'Hello!', sender: 'Judicious' },
     { text: 'Hi, how are you?', sender: 'You' },
   ]);
 
