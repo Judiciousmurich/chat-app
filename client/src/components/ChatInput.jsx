@@ -28,7 +28,7 @@ function ChatInput({ sendMessage }) {
       />
       <button
         onClick={handleSend}
-        className="ml-2 bg-[#25D366] text-white p-2 rounded hover:bg-[#1EBB66]"
+        className="ml-2 bg-[#056162] text-white p-2 rounded hover:bg-[#1EBB66]"
       >
         Send
       </button>
