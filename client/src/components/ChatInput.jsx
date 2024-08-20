@@ -17,16 +17,19 @@ function ChatInput({ sendMessage }) {
   };
 
   return (
-    <div className="p-4 border-t border-gray-300 flex items-center">
+    <div className="p-4 border-t border-[#323739] flex items-center bg-[#1E1E1E]">
       <input
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyPress={handleKeyPress}
         placeholder="Type a message"
-        className="flex-1 p-2 border rounded"
+        className="flex-1 p-2 border border-[#323739] rounded bg-[#323739] placeholder-[#8696A0] text-[#E9EDEF]"
       />
-      <button onClick={handleSend} className="ml-2 bg-green-500 text-white p-2 rounded">
+      <button
+        onClick={handleSend}
+        className="ml-2 bg-[#25D366] text-white p-2 rounded hover:bg-[#1EBB66]"
+      >
         Send
       </button>
     </div>
