@@ -10,7 +10,7 @@ function Sidebar({ chats, currentChat, setCurrentChat }) {
           className="w-full p-2 rounded bg-[#323739] placeholder-[#8696A0] text-[#E9EDEF]"
         />
       </div>
-      <div className="overflow-y-auto flex-1">
+      <div className="overflow-y-auto flex-1 w-full p-2 rounded">
         {chats.map((chat) => (
           <div
             key={chat.id}
