@@ -11,7 +11,7 @@ function App() {
   const [currentChat, setCurrentChat] = useState(chats[0]);
   const [messages, setMessages] = useState([
     { text: 'Hey', sender: 'Judy' },
-    { text: 'Hi, how are you?', sender: 'You' },
+    { text: 'Hi,, sender: 'You' },
   ]);
 
   const sendMessage = (message) => {
