@@ -5,7 +5,7 @@ import ChatWindow from './components/ChatWindow';
 function App() {
   const [chats] = useState([
     { id: 1, name: 'Judy', lastMessage: 'Hey there!' },
-    { id: 2, name: 'Johnson', lastMessage: 'Hello!' },
+    { id: 2, name: 'Martin', lastMessage: 'Hello!' },
   ]);
 
   const [currentChat, setCurrentChat] = useState(chats[0]);
